@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask
 import datetime 
 
 
@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello Worldskills! v1(Blue)"
+    return 'Hello Worldskills!'
 
 @app.route("/healthcheck")
 def healthcheck():
