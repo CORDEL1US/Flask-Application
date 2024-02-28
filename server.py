@@ -8,10 +8,6 @@ app = Flask(__name__)
 def hello():
     return "Hello Worldskills! v2"
 
-@app.route("/cat")
-def cat():
-    return render_template('cat.html')
-
 @app.route("/healthcheck")
 def healthcheck():
     now = datetime.datetime.now()
