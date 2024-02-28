@@ -1,14 +1,13 @@
-# Flask-Application
+# Flask-Application 
 
-This project is Static WebSite.
-Healthcheck
+This project is Static WebSite. 🦄
+Healthcheck ❤️
 
-Healthcheck Location is localhost:8000/healthcheck and if you access using GET method , it returns body as follows
+Healthcheck Location is localhost:8000/healthcheck and if you access using GET method , it returns body as follows 
 ```
-{
-  "logs": {
-    "time": "2022-03-15 16:15:18.609383"
+"logs": {	
+  "time":	"2024-02-28 10:49:38.469648"
   },
-  "status": "healthy"
+  "status":	"healthy"
 }
 ```
