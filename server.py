@@ -6,11 +6,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello Worldskills! v2"
+    return "Hello Worldskills! v1(Blue)"
 
-@app.route("/cat")
+@app.route("/dog")
 def cat():
-    return render_template('cat.html')
+    return render_template('dog.html')
 
 @app.route("/healthcheck")
 def healthcheck():
