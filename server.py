@@ -4,16 +4,16 @@ import datetime
 
 app = Flask(__name__)
 
-@app.route('/') 
+@app.route("/")
 def hello():
-    return 'Hello Worldskills! v1'
+    return "Hello Worldskills! v2"
 
-@app.route('/dog')
-def dog():
-    return render_template('dog.html')
+@app.route("/cat")
+def cat():
+    return render_template('cat.html')
 
-@app.route('/healthcheck')
-def healthckeck():
+@app.route("/healthcheck")
+def healthcheck():
     now = datetime.datetime.now()
     return {"status": "healthy", "logs": {"time": str(now)}}
 
